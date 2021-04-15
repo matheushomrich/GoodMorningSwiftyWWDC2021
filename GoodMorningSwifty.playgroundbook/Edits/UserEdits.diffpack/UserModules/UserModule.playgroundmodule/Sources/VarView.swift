@@ -3,7 +3,7 @@ import SwiftUI
 import PlaygroundSupport
 
 public struct VarView: View {
-    @State public var start: String = ""
+    @State var start: String = ""
     @State var location: Situation = Situation.none
     @State var showFailSuccess: Bool = false
     
@@ -52,7 +52,7 @@ public struct VarView: View {
             Spacer()
             
             if showFailSuccess {
-                SuccessFailView(start: start, location: location)
+                //SuccessFailView(start: $start, location: $location)
             }
             
         }.padding(.horizontal, 100)

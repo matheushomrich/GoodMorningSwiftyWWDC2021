@@ -1,13 +1,10 @@
 import SwiftUI
 
 public struct SuccessFailView: View {
-    @State public var location: Situation = Situation.none
-    @State public var start: String = ""
+    @Binding var start: String
+    @Binding var location: Situation
     
-    public init(start: String, location: Situation) {
-        self.start = start
-        self.location = location
-    }
+    //public init() {}
     
     public var body: some View {
         VStack {
@@ -36,8 +33,6 @@ public struct SuccessFailView: View {
                 }.onAppear {
                     playSound(sound: "fail", type: "mp3")
                 }
-                
-                
             }
         }.frame(width: 100, height: 100, alignment: .center)
         .padding(.horizontal, 200)
