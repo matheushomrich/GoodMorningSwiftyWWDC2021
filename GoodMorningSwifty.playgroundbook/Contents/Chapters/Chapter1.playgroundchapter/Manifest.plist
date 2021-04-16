@@ -3,12 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>My Playground</string>
+	<string>Good Morning Swifty</string>
 	<key>TemplatePageFilename</key>
 	<string>Template.playgroundpage</string>
 	<key>InitialUserPages</key>
 	<array>
-		<string>My Playground.playgroundpage</string>
+		<string>GoodMorningSwifty.playgroundpage</string>
+		<string>Preview.playgroundpage</string>
+		<string>Constants.playgroundpage</string>
+		<string>Variables.playgroundpage</string>
+		<string>Types.playgroundpage</string>
+		<string>MainTypes.playgroundpage</string>
+		<string>Comments.playgroundpage</string>
+		<string>Tuples.playgroundpage</string>
+		<string>BasicOperators.playgroundpage</string>
+		<string>CollectionTypes.playgroundpage</string>
+		<string>Array.playgroundpage</string>
+		<string>Set.playgroundpage</string>
+		<string>Dictionary.playgroundpage</string>
+		<string>GoHaveBreakfast.playgroundpage</string>
 	</array>
 </dict>
 </plist>
