@@ -18,7 +18,7 @@ public func verifyInputConstant(input: String) -> Situation {
 public func verifyInputVariable(input: String) -> Situation {
     var result: Situation
     
-    if(input == "let myConstant") {
+    if(input == "let myVariable") {
         result = Situation.success
     } else {
         result = Situation.failed
@@ -51,7 +51,7 @@ public func verifyInputComment(input: String) -> Situation {
 public func verifyInputTuple(input: String) -> Situation {
     var result: Situation
     
-    if(input == "let http404Error = (404, 'Not Found')") {
+    if(input == "let http404Error = (404, 'Not Found')" || input == "let http404Error=(404,'Not Found')" || input == "let http404Error =(404, 'Not Found')" || input == "let http404Error = (404, Not Found)") {
         result = Situation.success
     } else {
         result = Situation.failed

@@ -60,10 +60,9 @@ public struct LetView: View {
                             Image(uiImage: #imageLiteral(resourceName: "success.png"))
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 200, height: 100)
+                                .frame(width: 200, height: 200)
                                 .cornerRadius(20)
                                 .padding(.vertical, 30)
-                                .background(Color.red)
                         }.onAppear {
                             playSound(sound: "success", type: "mp3")
                         }

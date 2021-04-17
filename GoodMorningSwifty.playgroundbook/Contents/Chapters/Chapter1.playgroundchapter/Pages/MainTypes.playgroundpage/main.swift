@@ -1,4 +1,4 @@
-//: ## Here you'll have an overview of some of the most used and known Swift Types and also an exercise for you to practice setting a Type for a variable
+//: ## Here you'll have an overview of some of the most used and known Swift Types 
 
 import SwiftUI
 import PlaygroundSupport
